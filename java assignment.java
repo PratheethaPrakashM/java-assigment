@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-class assingmentcheck
+class student
 {
 
     String name;
@@ -17,9 +17,9 @@ class assingmentcheck
     {
         Scanner sc=new Scanner(System.in);
         int i;
-        assingmentcheck[] a=new assingmentcheck[10];
+        student[] a=new student[10];
         for(i=0;i<10;i++)
-        a[i]=new assingmentcheck();
+        a[i]=new student();
         System.out.println("Enter the details of 10 students:");
         for(i=0;i<10;i++)
         {
